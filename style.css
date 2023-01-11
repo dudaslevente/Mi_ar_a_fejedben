@@ -1,0 +1,40 @@
+body{
+    background-image: url("palya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.kapukep{
+    width: 40%;
+}
+
+.labdakep{
+    width: 10%;
+}
+
+.kapu{
+    animation-name: kapu;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+.labda{
+    animation-name: labda;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes kapu {
+    from{left: 0px;}
+    to{left: 60%;}
+}
