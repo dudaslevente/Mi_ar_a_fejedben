@@ -1,40 +1,359 @@
 body{
-    background-image: url("palya.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: block;
+    background-color: darksalmon;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.container{
+.cim {
+    color: black;
     display: flex;
-    flex-direction: column;
-}
-
-.kapukep{
-    width: 40%;
-}
-
-.labdakep{
-    width: 10%;
-}
-
-.kapu{
-    animation-name: kapu;
-    animation-duration: 3s;
-    animation-delay: 1s;
-    position: relative;
-    animation-fill-mode: forwards;
+    align-items: center;
+    justify-content: center;
 }
 
 .labda{
-    animation-name: labda;
-    animation-duration: 5s;
-    animation-delay: 1s;
-    position: relative;
-    animation-fill-mode: forwards;
+    width: 40%;
+}
+
+.tartalom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
 }
 
 
-@keyframes kapu {
-    from{left: 0px;}
-    to{left: 60%;}
+
+
+
+.messi{
+    text-align: center;
+}
+
+.messikep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkred;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+}
+
+.messikep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.messikep img:hover{
+    width: 240px;
+    transition-duration: 2s;
+}
+
+
+
+
+
+
+.maradona{
+    text-align: center;
+}
+
+.maradonakep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+}
+
+.maradonakep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.maradonakep img:hover{
+    width: 270px;
+    transition-duration: 2s;
+}
+
+
+
+
+
+
+.cristiano{
+    text-align: center;
+}
+
+.cristianokep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+}
+
+.cristianokep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.cristianokep img:hover{
+    width: 300px;
+    transition-duration: 2s;
+}
+
+
+
+
+
+
+.pele{
+    text-align: center;
+}
+
+.pelekep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgoldenrod;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+}
+
+.pelekep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.pelekep img:hover{
+    width: 320px;
+    transition-duration: 2s;
+}
+
+
+
+
+
+.zidane{
+    text-align: center;
+}
+
+.zidanekep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  wheat;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+}
+
+.zidanekep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.zidanekep img:hover{
+    width: 300px;
+    transition-duration: 2s;
+}
+
+
+
+.jonah{
+    text-align: center;
+}
+
+.jonahkep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  orangered;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.jonahkep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.jonahkep img:hover{
+    width: 300px;
+    transition-duration: 2s;
+}
+
+
+
+
+.best{
+    text-align: center;
+}
+
+.bestkep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.bestkep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.bestkep img:hover{
+    width: 300px;
+    transition-duration: 2s;
+}
+
+
+
+
+.beckenbauer{
+    text-align: center;
+}
+
+.beckenbauerkep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  gray;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.beckenbauerkep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.beckenbauerkep img:hover{
+    width: 270px;
+    transition-duration: 2s;
+}
+
+
+
+
+
+.puskas{
+    text-align: center;
+}
+
+.puskaskep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  green;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.puskaskep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.puskaskep img:hover{
+    width: 270px;
+    transition-duration: 2s;
+}
+
+
+
+
+.ronaldo{
+    text-align: center;
+}
+
+.ronaldokep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  yellow;
+    width: 400px;
+    height: 300px;
+    border-radius: 140px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.ronaldokep img{
+    width: 150px;
+    border: 2px solid black;
+}
+
+.ronaldokep img:hover{
+    width: 270px;
+    transition-duration: 2s;
+}
+
+
+footer{
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 25px;
+    transition-duration: 2s;
+}
+
+.labdakep{
+    animation-name: labda;
+    animation-duration: 5s;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    width: 200px;
+}
+
+@keyframes labda {
+    0%   {left:0px; top:0px;}
+    50%  {left:210%; top:0px;}
+    100% {left:0px; top:0px;}
 }
