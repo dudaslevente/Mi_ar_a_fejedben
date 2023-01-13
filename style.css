@@ -1,7 +1,5 @@
 body{
-    display: block;
     background-color: darksalmon;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .cim {
@@ -9,6 +7,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 19px;
+}
+
+.focivilag{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.focivilag a{
+    font-size: 15px;
+}
+
+p{
+    padding-right: 10px;
+    padding-top: 20px;
 }
 
 .labda{
@@ -25,6 +41,13 @@ body{
 }
 
 
+header{
+    background-image: url("focipalya2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
 
 
 
@@ -36,7 +59,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darkred;
+    background: rgb(139,0,0);
+    background: linear-gradient(90deg, rgba(139,0,0,1) 26%, rgba(9,9,121,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
@@ -65,7 +89,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: lightblue;
+    background: rgb(173,216,230);
+    background: linear-gradient(90deg, rgba(173,216,230,1) 26%, rgba(31,9,121,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
@@ -94,7 +119,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darkblue;
+    background: rgb(0,0,139);
+    background: linear-gradient(90deg, rgba(0,0,139,1) 26%, rgba(255,255,255,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
@@ -123,7 +149,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darkgoldenrod;
+    background: rgb(184,134,11);
+    background: linear-gradient(90deg, rgba(184,134,11,1) 26%, rgba(0,60,0,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
@@ -151,7 +178,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  wheat;
+    background: rgb(121,175,122);
+    background: linear-gradient(90deg, rgba(121,175,122,1) 26%, rgba(0,55,60,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
@@ -177,15 +205,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  orangered;
+    background: rgb(255,69,0);
+    background: linear-gradient(90deg, rgba(255,69,0,1) 26%, rgba(214,212,13,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
-              0 2px 2px rgba(0,0,0,0.12), 
-              0 4px 4px rgba(0,0,0,0.12), 
-              0 8px 8px rgba(0,0,0,0.12),
-              0 16px 16px rgba(0,0,0,0.12);
 }
 
 .jonahkep img{
@@ -209,15 +233,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 30%, rgba(193,123,44,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
-              0 2px 2px rgba(0,0,0,0.12), 
-              0 4px 4px rgba(0,0,0,0.12), 
-              0 8px 8px rgba(0,0,0,0.12),
-              0 16px 16px rgba(0,0,0,0.12);
 }
 
 .bestkep img{
@@ -241,15 +261,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  gray;
+    background: rgb(87,81,81);
+    background: linear-gradient(193deg, rgba(87,81,81,1) 30%, rgba(15,15,15,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
-              0 2px 2px rgba(0,0,0,0.12), 
-              0 4px 4px rgba(0,0,0,0.12), 
-              0 8px 8px rgba(0,0,0,0.12),
-              0 16px 16px rgba(0,0,0,0.12);
 }
 
 .beckenbauerkep img{
@@ -274,15 +290,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  green;
+    background: rgb(0,128,0);
+    background: linear-gradient(94deg, rgba(0,128,0,1) 30%, rgba(15,223,172,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
-              0 2px 2px rgba(0,0,0,0.12), 
-              0 4px 4px rgba(0,0,0,0.12), 
-              0 8px 8px rgba(0,0,0,0.12),
-              0 16px 16px rgba(0,0,0,0.12);
 }
 
 .puskaskep img{
@@ -306,15 +318,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  yellow;
+    background: rgb(255,255,0);
+    background: linear-gradient(94deg, rgba(255,255,0,1) 30%, rgba(15,223,39,1) 100%);
     width: 400px;
     height: 300px;
     border-radius: 140px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
-              0 2px 2px rgba(0,0,0,0.12), 
-              0 4px 4px rgba(0,0,0,0.12), 
-              0 8px 8px rgba(0,0,0,0.12),
-              0 16px 16px rgba(0,0,0,0.12);
 }
 
 .ronaldokep img{
@@ -334,13 +342,8 @@ footer{
 
 a{
     color: black;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-a:hover{
     font-size: 25px;
-    transition-duration: 2s;
+    text-decoration: none;
 }
 
 .labdakep{
@@ -354,6 +357,6 @@ a:hover{
 
 @keyframes labda {
     0%   {left:0px; top:0px;}
-    50%  {left:210%; top:0px;}
+    50%  {left:210%; top:0px; rotate: 720deg;}
     100% {left:0px; top:0px;}
 }
