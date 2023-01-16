@@ -31,6 +31,7 @@ header{
 
 .messi{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(255,0,0,0.75);
 }
 
 .messikep {
@@ -56,6 +57,7 @@ header{
 
 .maradona{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(173,216,230,1);
 }
 
 .maradonakep {
@@ -81,6 +83,7 @@ header{
 
 .cristiano{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(0,0,139,0.75);
 }
 
 .cristianokep {
@@ -106,6 +109,7 @@ header{
 
 .pele{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(184,134,11,0.8);
 }
 
 .pelekep {
@@ -131,6 +135,7 @@ header{
 
 .zidane{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(0,55,60,0.8);
 }
 
 .zidanekep {
@@ -156,6 +161,7 @@ header{
 
 .jonah{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(255,69,0,0.75);
 }
 
 .jonahkep {
@@ -181,6 +187,7 @@ header{
 
 .best{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(255,0,0,0.75);
 }
 
 .bestkep {
@@ -206,6 +213,7 @@ header{
 
 .beckenbauer{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(87,81,81,0.75);
 }
 
 .beckenbauerkep {
@@ -231,6 +239,7 @@ header{
 
 .puskas{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(0,128,0,0.75);
 }
 
 .puskaskep {
@@ -256,6 +265,7 @@ header{
 
 .ronaldo{
     text-align: center;
+    text-shadow: 2px 3px 3px rgba(255,255,0,0.8);
 }
 
 .ronaldokep {
