@@ -26,7 +26,7 @@ header{
     background-image: url("focipalya.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150px;
+    height: 100px;
 }
 
 .messi{
@@ -282,6 +282,9 @@ header{
 
 footer{
     text-align: center;
+    background-image: url("focipalya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a{
@@ -295,7 +298,7 @@ a{
     animation-duration: 5s;
     position: relative;
     animation-iteration-count: infinite;
-    width: 200px;
+    width: 150px;
 }
 
 @keyframes labda {
