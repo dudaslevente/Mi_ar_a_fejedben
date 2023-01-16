@@ -3,16 +3,10 @@ body{
 }
 
 .cim {
-    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 19px;
-}
-
-p{
-    padding-right: 10px;
-    padding-top: 20px;
+    font-size: 20px;
 }
 
 .labda{
@@ -25,9 +19,8 @@ p{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 30px;
 }
-
 
 header{
     background-image: url("focipalya.jpg");
@@ -35,9 +28,6 @@ header{
     background-size: cover;
     height: 150px;
 }
-
-
-
 
 .messi{
     text-align: center;
@@ -64,11 +54,6 @@ header{
     transition-duration: 2s;
 }
 
-
-
-
-
-
 .maradona{
     text-align: center;
 }
@@ -93,11 +78,6 @@ header{
     width: 270px;
     transition-duration: 2s;
 }
-
-
-
-
-
 
 .cristiano{
     text-align: center;
@@ -124,11 +104,6 @@ header{
     transition-duration: 2s;
 }
 
-
-
-
-
-
 .pele{
     text-align: center;
 }
@@ -153,10 +128,6 @@ header{
     width: 320px;
     transition-duration: 2s;
 }
-
-
-
-
 
 .zidane{
     text-align: center;
@@ -183,8 +154,6 @@ header{
     transition-duration: 2s;
 }
 
-
-
 .jonah{
     text-align: center;
 }
@@ -209,9 +178,6 @@ header{
     width: 300px;
     transition-duration: 2s;
 }
-
-
-
 
 .best{
     text-align: center;
@@ -238,9 +204,6 @@ header{
     transition-duration: 2s;
 }
 
-
-
-
 .beckenbauer{
     text-align: center;
 }
@@ -266,10 +229,6 @@ header{
     transition-duration: 2s;
 }
 
-
-
-
-
 .puskas{
     text-align: center;
 }
@@ -294,9 +253,6 @@ header{
     width: 270px;
     transition-duration: 2s;
 }
-
-
-
 
 .ronaldo{
     text-align: center;
@@ -338,7 +294,6 @@ a{
     animation-name: labda;
     animation-duration: 5s;
     position: relative;
-    animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     width: 200px;
 }
